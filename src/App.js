@@ -2,7 +2,6 @@ import React, { Fragment, useState, useEffect } from "react";
 import { ThemeProvider} from "styled-components";
 import { lightTheme, darkTheme, GlobalTheme } from "./theme";
 import styled from "styled-components";
-import {Form, Button} from 'react-bootstrap';
 
 function App() {
   const [theme, setTheme] = useState("light");
